@@ -1,0 +1,55 @@
+:root {
+  --font-small: 8px;
+  --font-medium: 20px;
+  --font-large: 24px;
+  --font-xl: 32px;
+
+  --spacing-regular: 16px;
+}
+
+#root {
+  max-width: 1280px;
+  margin: auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+#wrapper {
+  max-width: 750px;
+  width: 100%;
+}
+
+#quote-box {
+  border-color: aqua !important;
+  border: 2px solid;
+  border-radius: 20px;
+  padding: calc(3*var(--spacing-regular));
+}
+
+#text {
+  margin: 0;
+  font-size: var(--font-xl);
+  color: fuchsia;
+}
+
+#author {
+  font-size: var(--font-medium);
+  text-align: end;
+  margin: 2%;
+  color: hotpink;
+}
+
+#new-quote {
+  color: aqua;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  width: var(--font-xl);
+  height: var(--font-xl);
+  border-radius: 50%;
+}
